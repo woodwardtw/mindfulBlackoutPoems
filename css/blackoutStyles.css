@@ -108,3 +108,9 @@
 #post-submission-form {
   display: inline-block;
 }
+
+.source {
+  margin-top: 10px; 
+  background-color: #efefef;
+  padding: 3px;
+}

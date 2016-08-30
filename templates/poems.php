@@ -4,7 +4,11 @@
 	  <?php 
       echo the_content();
 	  ?>
-	 	
+	  <div class="source">
+	  	Source text: <a href="<?php echo get_post_meta($post->ID, 'primary_source_source_url', true) ?>">
+	  		<?php echo get_post_meta($post->ID, 'primary_source_source_title', true) ?>	  		
+	  	</a>	
+	 </div>	
 	  </div>	
 	  <div class="poem-buttons">
 	   <form id="post-submission-form">
